@@ -1,0 +1,153 @@
+<!Doctype html>
+    <html>
+        <head>
+            <script type="text/javascript" src="validate.js"></script>
+            <link rel="stylesheet" type="text/css" href="normalize.css" media="all"> 
+
+            <style type="text/css">
+                body{
+                    background-color: #cc4518;
+                    background-image:  url("222.jpg");
+                    marker-start: 60px;
+                    border: 5px double green;
+                }
+                h2{
+                    background-color: #10024f;
+                    padding-top: 10px;
+                    marker-start: 10px; 
+                    
+                    color: white;    
+                }
+                span{
+                    background-color: green;
+                    color:white;
+                    padding: 5px;
+                }
+                li a{
+                    text-decoration:none;
+                }
+            </style>
+        </head>
+        <body>
+          <form action="#" name="Registration" onsubmit="return(validate());">
+
+                <table cellpadding="5" width="30%" bgcolor="#a7b719" align="center"
+                    cellspacing="5">
+
+                    <marquee><strong>Thank You For Visiting Our Website....</strong></marquee>
+                    <tr>
+                        <td colspan=2>
+                            <center><font size=4><b><h2>Registration Form</h2></b></font></center>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type=text name=textnames id="textname" size="30" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Father Name:</td>
+                        <td><input type="text" name="fathername" id="fathername"
+                            size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Postal Address:</td>
+                        <td><input type="text" name="paddress" id="paddress" size="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Personal Address:</td>
+                        <td><input type="text" name="personaladdress"
+                            id="personaladdress" size="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Gender:</td>
+                            <td><input type="radio" name="Gender" value="male" size="10">Male
+                            <input type="radio" name="Gender" value="Female" size="10">Female
+                            <input type="radio" name="Gender" value="Other" size="10">Other
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>City:</td>
+                        <td>
+                            <select name="City">
+                                <option value="-1" selected>select..</option>
+                                <option value="Kakinada">Kakinada</option>
+                                <option value="Samalkot">Samalkot</option>
+                                <option value="rajaumandry">rajaumandry</option>
+                                <option value="Vizag">Vizag</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Course:</td>
+                        <td>
+                            <select name="Course">
+                                <option value="-1" selected>select..</option>
+                                <option value="B.Tech">B.TECH</option>
+                                <option value="MCA">MCA</option>
+                                <option value="MBA">MBA</option>
+                                <option value="BCA">BCA</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>District:</td>
+                        <td>
+                            <select name="District">
+                                <option value="-1" selected>select..</option>
+                                <option value="East Godavari">East Godavari</option>
+                                <option value="West Godavari">West Godavari</option>
+                                <option value="Srikakulam">Srikakulam</option>
+                                <option value="Vijayanagaram">Vijayanagaram</option>
+                            </select>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>State:</td>
+                        <td>
+                            <select Name="State">
+                                <option value="-1" selected>select..</option>
+                                <option value="Andhrapradesh">Andhrapradesh</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Tamilnadu">Tamilnadu</option>
+                                <option value="Bihar">Bihar</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PinCode:</td>
+                        <td>
+                            <input type="text" name="pincode" id="pincode" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>EmailId:</td>
+                        <td><input type="text" name="emailid" id="emailid" size="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Date Of Birth:</td>
+                        <td><input type="text" name="dob" id="dob" size="30"></td>
+                    </tr>
+
+                    <tr>
+                        <td>MobileNo:</td>
+                        <td><input type="text" name="mobileno" id="mobileno" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset" style="background-color: #10024f;color:white"></td>
+                        <td colspan="2"><input type="submit" value="Submit Form" style="background-color: #10024f;color:white"/></td>
+                    </tr>
+                </table>
+          </form>
+            <li><a href="Software.html"><h3 style="text-align: center;"><span>Back To Home</span></h3></a></li>
+        </body>
+    </html>

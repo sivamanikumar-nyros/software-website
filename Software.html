@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Siva Infotech.Com</title>
+			 <link rel="stylesheet" type="text/css" href="normalize.css" media="all"> 
+			<!-- <link rel="stylesheet" type="text/css" href="reset.css" media="all"> -->
+
+			<style type="text/css">
+				body{
+					background-image: url("222.jpg");
+				}
+
+				nav ul{
+					list-style-type: none;
+
+				}
+				ul li a{
+					text-decoration:none;
+					float: left;
+					line-height: 3em;
+					font-size: 2em;
+					width:150px;
+					height: 40px;
+					color: #17ed69;
+
+				}
+				
+				.search-right{
+ 					float:right;
+ 					padding: 6px;
+ 					font-size: 15px;
+ 					margin-top:10px;
+ 					margin-right: 50px;
+ 					background-color:#17ed69;
+ 					color:red;
+ 					border:5px groove blue;
+ 					border-radius: 2%;
+ 					
+
+				}
+				div.container4 {
+    					height: 10em;
+    					position: relative 
+    				}
+						div.container4 p {
+    								 margin: 0;
+    						position: absolute;
+    								 top: 80%;
+    								 font-size: 3em;
+    								 color:#030d42;
+    								 left: 50%;
+    						margin-right: -50%;
+    			transform: translate(-50%, -50%) }
+    			.s{
+    				margin-left: 490px;
+    				margin-top: 30px;
+    				display: block;
+    				margin-bottom: 50px;
+
+
+    			}
+    			
+    			
+				footer{
+					padding-bottom: 20px;
+					padding-top: 10px;
+					font-weight: bold;
+					font-size: 2em;
+					text-align: center;
+				}
+				.siva{
+    				text-align: center;
+    				font-size: 1.5em;
+
+
+				}
+				b{
+					cursor: pointer;
+					color:blue;
+				}
+				hgroup{
+					color:#17ed69;
+					font-weight: bold;
+					text-align:center; 
+
+				}
+				span{
+					background-color: green;
+					color:white;
+					padding: 5px;
+				}
+				
+				#laptop{
+					float:right;
+				}
+				.mani{
+					color:#17ed69;
+				}
+				.mySlides {
+					display:none;
+				}
+				.sp{
+					background-color: tomato;
+				}
+				
+
+				
+				
+			</style>
+		</head>
+		<body>
+					<hgroup>
+						<h1>Siva Infotech India Pvt Limited</h1>
+						<h2>This Is A Webdevelopment Company </h2>
+					</hgroup>
+							
+							
+							<div id="image">
+								<img class="mySlides" src="123.jpg" height=200px width="1300px" >
+							</div>
+							
+							<div id="image">
+								<img class="mySlides" src="122.jpg" height=200px width="1300px">
+							</div>
+							<div id="image">
+								<img class="mySlides" src="20.png" height=200px width="1300px">
+							</div>
+							<div id="image">
+								<img class="mySlides" src="21.png" height=200px width="1300px">
+							</div>
+
+
+
+
+							<script>
+								var myIndex = 0;
+								carousel();
+
+								function carousel() {
+    								var i;
+    								var x = document.getElementsByClassName("mySlides");
+    								for (i = 0; i < x.length; i++) {
+       									x[i].style.display = "none";
+       								}  
+	
+    								myIndex++;
+    									if (myIndex > x.length) {myIndex = 1}    
+    									x[myIndex-1].style.display = "block";  
+	    									setTimeout(carousel, 1600); // Change image every 2 seconds
+								}
+							</script>
+
+							
+		
+						<p style="background-color: pink;"><span style="background-color:#cc4518;color:white;font-weight: bold;padding-top: 3px;padding-right: 3px;">Updates:</span><marquee WIDTH="92%">Established in 2018, Web Technologies has been serving as a promoter of businesses for over a decade. We offer high quality professional Web Design and Hosting Services at affordable prices to companies and inividuals. With our expertise, you can be sure your website is in good hands.We focus our efforts in crafting professional Websites, giving an impressive look and feel to your website. We optimize your website to get it high positions in search engines with the right keywords.We put the latest technology to work for you. We stay up-to-date-with the latest technology to make sure we apply the latest methods and best ways to give your Websites and Portals the look and feel of the future.d SQL Databases.We can also develop Dynamic Content Management Pages where the client can update , edit, format text, upload or replace images or videos without any help from a Designer.We test each and every piece of work before uploading to server.</marquee>
+  						</p>
+
+						<nav class="mani">
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="p2.html">Pages</a></li>
+								<li><a href="element.html">Elements</a></li>
+								<li><a href="https://www.impactbnd.com/blog/examples-of-business-blogs">Blog</a></li>
+								<li><a href="contact.html">Contact</a></li>
+
+							</ul>
+							<div class="search-right">
+								<h4 style="color:white">What are you looking for...</h4>
+                       				<input type="text" placeholder="Search..">
+							</div>
+						</nav>
+							<br/><br/><br/><br/><br/><br/>
+							<div id="Company">
+								<img src="company.jpg" height=250px>
+							</div>
+		
+							<div class=container4>
+  								<p>Branding/Designing/Development Company</p>
+  					
+							</div>
+							<nav class="s">
+								<ul>
+									<li><a href="reg.html"><span>Register<span></a></li>
+									<li><a href="login.html"><span class="sp">Login</span></a></li>
+								</ul>
+							</nav><br><br><br><br>
+							<footer>
+              					<a href="News"><b>FAQ</b></a>|
+              					<a href="Help"><b>Help</b></a>|
+              					<a href="Terms&conditions"><b>Terms&conditions</b></a>
+         
+         						 &#169 Copy Rights Reserved By 2018.
+
+     						</footer>      
+		</body>
+	</html>
+
+
+
+
+
